@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">启动器</string>
+
+    <string name="hello_world">Google Android</string>
+    <string name="action_settings">设置</string>
+
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednesday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="sunday">星期日</string>
+
+    <string name="am">上午</string>
+    <string name="pm">下午</string>
+
+    <string name="select_app_title">请选择应用</string>
+    <string name="allapps">所有应用</string>
+
+    <string name="vod">点播</string>
+    <string name="live">直播</string>
+    <string name="media_center">媒体中心</string>
+    <string name="app_store">应用商店</string>
+    <string name="all_apps">所有应用</string>
+    <string name="settings">设置</string>
+
+    <string name="weather_refresh">正在刷新...</string>
+    <string name="no_del_sys_app">系统应用无法卸载</string>
+    <string name="please_sure">请确认是否卸载<xliff:g id="part1">%1$s</xliff:g>?</string>
+    <string name="ok">確定</string>
+    <string name="details">应用详情</string>
+</resources>

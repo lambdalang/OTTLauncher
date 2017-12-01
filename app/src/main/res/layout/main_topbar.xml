@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/main_topbar_height"
+              android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/timeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/time_view_leftmargin"
+        android:textSize="28sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/sdcardView"
+            android:layout_width="@dimen/wifi_view_width"
+            android:layout_height="@dimen/wifi_view_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@mipmap/micro_sd"/>
+
+        <RelativeLayout
+            android:layout_width="42dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="8dp">
+
+            <ImageView
+                android:id="@+id/usbView"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/usb"/>
+
+            <TextView
+                android:id="@+id/usbText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/goldenrod"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/netView"
+            android:layout_width="@dimen/wifi_view_width"
+            android:layout_height="@dimen/wifi_view_height"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/ethernet0"/>
+
+        <ImageView
+            android:id="@+id/wifiView"
+            android:layout_width="@dimen/wifi_view_width"
+            android:layout_height="@dimen/wifi_view_height"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/wifi0"/>
+    </LinearLayout>
+
+
+</LinearLayout>

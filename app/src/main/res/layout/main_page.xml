@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rLayout_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shadow"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:tag="com.himedia.mediacenterentrance|com.himedia.mediacenterentrance.MainActivity">
+
+        <RelativeLayout
+            android:layout_width="234dp"
+            android:layout_height="225dp"
+            android:background="@color/royalblue"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/view1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:background="@mipmap/ic_movie"/>
+
+            <TextView
+                android:id="@+id/mainpage_text1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/vod"
+                android:textColor="@color/lightyellow"
+                android:textSize="28sp"/>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rLayout_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:background="@drawable/shadow"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:tag="com.hisilicon.android.mediacenter|com.hisilicon.android.mediacenter.activity.TabBarExample">
+
+        <RelativeLayout
+            android:layout_width="234dp"
+            android:layout_height="225dp"
+            android:background="@color/darkorange"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/view2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:background="@mipmap/ic_filemaneger"/>
+
+            <TextView
+                android:id="@+id/mainpage_text2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/media_center"
+                android:textColor="@color/lightyellow"
+                android:textSize="28sp"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rLayout_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="480dp"
+        android:background="@drawable/shadow"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:tag="com.shafa.market|com.shafa.market.ShafaHomeAct">
+
+        <RelativeLayout
+            android:layout_width="234dp"
+            android:layout_height="455dp"
+            android:background="@color/blueviolet"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/view3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="160dp"
+                android:background="@mipmap/ic_store"/>
+
+            <TextView
+                android:id="@+id/mainpage_text3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/app_store"
+                android:textColor="@color/lightyellow"
+                android:textSize="28sp"/>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rLayout_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="720dp"
+        android:background="@drawable/shadow"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:tag="com.android.vending|com.android.vending.AssetBrowserActivity">
+
+        <RelativeLayout
+            android:layout_width="234dp"
+            android:layout_height="225dp"
+            android:background="@color/darkturquoise"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/view4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:background="@mipmap/ic_allapps"/>
+
+            <TextView
+                android:id="@+id/mainpage_text4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/all_apps"
+                android:textColor="@color/lightyellow"
+                android:textSize="28sp"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rLayout_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rLayout_3"
+        android:layout_alignLeft="@+id/rLayout_1"
+        android:background="@drawable/shadow"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:tag="com.hitv.newappmanager|com.hitv.newappmanager.main.AppMainActivity">
+
+        <RelativeLayout
+            android:layout_width="473dp"
+            android:layout_height="225dp"
+            android:background="@color/darkturquoise"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/view5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:background="@mipmap/ic_live"/>
+
+            <TextView
+                android:id="@+id/mainpage_text5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/live"
+                android:textColor="@color/lightyellow"
+                android:textSize="28sp"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rLayout_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rLayout_3"
+        android:layout_alignLeft="@+id/rLayout_4"
+        android:background="@drawable/shadow"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:tag="com.android.hisiliconsetting|com.android.hisiliconsetting.MainActivity">
+
+        <RelativeLayout
+            android:layout_width="234dp"
+            android:layout_height="225dp"
+            android:background="@color/purple"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/view6"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:background="@mipmap/ic_settings"/>
+
+            <TextView
+                android:id="@+id/mainpage_text6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/settings"
+                android:textColor="@color/lightyellow"
+                android:textSize="28sp"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rLayout_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="960dp"
+        android:background="@drawable/shadow"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <RelativeLayout
+            android:layout_width="234dp"
+            android:layout_height="455dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivWeather"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/wip_bk_na"/>
+
+            <TextView
+                android:id="@+id/weather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/lightyellow"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/temp"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="55dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/lightyellow"
+                android:textSize="60sp"/>
+
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/lightyellow"
+                android:textSize="25sp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+
